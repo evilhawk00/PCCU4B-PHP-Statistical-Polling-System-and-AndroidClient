@@ -1,2 +1,2 @@
-# PCCU4B-PHP-Pollng-System-and-AndroidClient
-A simple example for creating a web polling system and an android client.
+# PCCU4B-PHP-Statistical-Pollng-System-and-AndroidClient
+A simple example for creating a web Statistical system and an android client.(Can become a polling system with some modifications)
