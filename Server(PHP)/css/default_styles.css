@@ -1,0 +1,593 @@
+html, body {
+	background-color: #0a6da3;
+    background-image: url("../images/underwater.jpg");
+	//background-repeat: repeat-x;
+	background-attachment: fixed;
+    color: #666666;
+    font: 14px Microsoft JhengHei;
+    margin: 0;
+    background-size: cover !important;
+    display: block;
+    height: 100%;
+    width: 100%;
+	min-height: 100%;
+	width: 100%;
+
+}
+
+
+hr{
+	border: 1px solid #ccc;
+}
+
+.textfield {
+    background: f1f2d5 none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    color: #333333;
+    font-size: 11px;
+    padding-left: 1px;
+}
+.bottom_addr {
+    color: #000;
+    font-size: 10px;
+    padding: 5px 0 12px;
+    text-align: center;
+}
+.totalSUM {
+    text-align: right;
+}
+
+h1 {
+    border-bottom: 1px dashed white;
+    color: white;
+    font: bold 18px Microsoft JhengHei;
+    margin: 0 0 5px;
+    padding: 0 0 3px;
+    text-align: center;
+}
+
+
+h3 {
+    
+	color:#00adeb;
+}
+h4 {
+    color: white;
+}
+a {
+    color: white;
+    font-size: 20px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+    color: #0a6da3;
+}
+.err {
+    color: #ff9900;
+}
+th {
+    font-weight: bold;
+    //text-align: left;
+	text-align: center;
+	color: #0a1a59;
+	border-bottom: 3px solid #ccc;
+}
+#page {
+    background: rgba(255, 255, 255, 0.85) none repeat scroll 0 0;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 0 10px;
+    width: 90%;
+	border-radius: 15px;
+}
+#header {
+    background: orange none repeat scroll 0 0;
+    text-align: center;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	width: auto;
+	display: table;
+	margin:0 auto;
+	padding: 3px 15px 3px 15px;
+	position: relative;
+	
+}
+#container {
+	background: rgba(245, 245, 245, 0.9) none repeat scroll 0 0;
+	border: 5px solid #00adeb;
+    font-size: 14px;
+    margin: 20px auto 30px;
+    padding: 4px 6px 4px;
+    text-align: justify;
+    width: 85%;
+	border-radius: 15px;
+	
+}
+#footer {
+    background: orange none repeat scroll 0 0;
+    margin: 20px auto 0;
+    width: 1400px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+.COPYRIGHT-footer {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 4px solid rgba(0, 174, 239, 1);
+	z-index: 90;
+	//position: absolute;
+	position:relative;
+	//bottom: 0;
+	//margin: 20px auto 0;
+}
+
+
+.COPYRIGHT-footer .row .copyright {
+	//background: rgba(245, 245, 245, 1) none repeat scroll 0 0;
+    //letter-spacing: 0.05em;
+    color: #999;
+    //float: left;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    line-height: 22px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+	
+}
+
+.login .span4 {
+    min-width: 370px;
+}
+.login .span4 > p, .login .span4 form {
+    background: #fff none repeat scroll 0 0;
+    padding: 20px;
+}
+.login .span4 > p {
+    border-bottom: 1px solid #efefef;
+}
+.login form label {
+    float: left;
+    padding: 10px 0 5px;
+}
+.login .rememberMe {
+    float: left;
+    padding-top: 20px;
+}
+.login .passwordReset {
+    float: left;
+    font-size: 12px;
+    margin-top: 21px;
+}
+.login .passwordReset a {
+    text-decoration: none;
+}
+
+.loginOr span {
+    background: #efefef none repeat scroll 0 0;
+    border-radius: 100%;
+    color: #999;
+    display: block;
+    font-size: 18px;
+    height: 50px;
+    line-height: 45px;
+    margin: 30px auto;
+    text-align: center;
+    width: 50px;
+}
+
+
+section.login, section.servicesContent, section.replyTicket, section.serverContent, section.ticketContent, section.domainContent {
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+textarea, input[type="text"], input[type="password"] {
+    background: #f3f3f3 none repeat scroll 0 0;
+    border: 0 solid #ccc;
+    border-radius: 0;
+    padding: 10px 5px;
+    width: 100%;
+}
+
+.primaryColor {
+    background: rgba(0, 173, 236, 1) none repeat scroll 0 0;
+    border-color: rgba(0, 173, 236, 1) !important;
+    color: #fff !important;
+}
+
+.max-width {
+    background: #fff none repeat scroll 0 0;
+    display: table;
+    float: none;
+    margin: 0 auto !important;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.customCheckbox label, .login form .rememberMe label {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 15px;
+    padding: 0 0 0 25px;
+    position: relative;
+}
+.customCheckbox input[type="checkbox"], .rememberMe input[type="checkbox"] {
+    display: none;
+}
+.customCheckbox label::before, .rememberMe label::before {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    bottom: 1px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1) inset;
+    content: "";
+    display: inline-block;
+    height: 15px;
+    left: 0;
+    margin-right: 10px;
+    position: absolute;
+    top: 4px;
+    width: 15px;
+}
+.customCheckbox input[type="checkbox"]:checked + label::before, .rememberMe input[type="checkbox"]:checked + label::before {
+    background: #60b716 none repeat scroll 0 0;
+    border: 1px solid #4ca004;
+    color: #fff;
+    content: "";
+    font-family: FontAwesome;
+    font-size: 12px;
+    line-height: 13px;
+    padding-top: 0;
+    text-align: center;
+}
+
+
+.control-group label {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+.largeBtn {
+    border: 1px solid;
+    font-size: 17px;
+    height: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 8px 13px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.enrBtn {
+    border: 1px solid;
+    font-size: 17px;
+    height: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 6px 10px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.pullRight {
+    float: right !important;
+}
+input {
+    font-family: inherit;
+}
+
+.clickable, label, input[type="button"], input[type="submit"], input[type="file"], button {
+    cursor: pointer;
+}
+
+h1.splash {
+    font-size: 48px;
+    font-weight: 400;
+    text-shadow: 10px 0 30px #000;
+	margin: 14px 0 20px;
+	border-bottom: none;
+}
+
+
+.main-header .main-menu {
+    float: right;
+    margin: 0;
+}
+
+.main-header {
+    background: #fff none repeat scroll 0 0;
+    //float: left;
+    height: 70px;
+    letter-spacing: 0.05em;
+    line-height: 22px;
+    position: relative;
+    top: 0;
+    transition: all 0.35s ease 0s;
+    width: 100%;
+    z-index: 100;
+}
+.col-md-12 {
+    width: 100%;
+	
+}
+.main-header .main-menu span, .main-header .main-menu a {
+    color: #666;
+    float: left;
+    font-size: 13px;
+}
+
+.main-header .tag-line {
+    left: 18px;
+    position: absolute;
+    top: 42px;
+    z-index: 900;
+}
+
+.main-header .logo img {
+    height: auto;
+    width: 100%;
+}
+img, object, embed {
+    max-width: 100%;
+}
+
+.nav-up {
+    top: -70px;
+}
+.main-header::after {
+    background: rgba(0, 0, 0, 0.15) none repeat scroll 0 0;
+    bottom: -4px;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.main-header .logo {
+    left: 15px;
+    position: absolute;
+    top: 10px;
+    width: 140px;
+    z-index: 1000;
+}
+.main-header .tag-line {
+    left: 18px;
+    position: absolute;
+    top: 42px;
+    z-index: 900;
+}
+.main-header a {
+    text-decoration: none;
+}
+.main-header .logo img {
+    height: auto;
+    width: 100%;
+}
+.main-header i {
+    font-size: 18px;
+    left: 0;
+    margin: 0;
+    top: 0;
+}
+.main-header .main-menu {
+    float: right;
+    margin: 0;
+}
+.main-header .topBtn {
+    position: relative;
+}
+.main-header .hide-my-freenom {
+    display: block;
+}
+.main-header .drop-down.active {
+    border-bottom: 4px solid rgba(0, 174, 239, 1);
+}
+.main-header .drop-down.active span, .main-header .drop-down.active i {
+    color: rgba(0, 174, 239, 1);
+}
+.main-header .drop-down ul {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    height: auto;
+    left: -9999px;
+    min-width: 230px;
+    opacity: 0;
+    position: absolute;
+    top: 74px;
+    transition: opacity 0.2s ease 0s;
+    z-index: 1000;
+}
+.main-header .drop-down.active ul {
+    left: 0;
+    opacity: 1;
+}
+.main-header .drop-down.drop-right.active ul {
+    left: auto;
+    right: 0;
+}
+.main-header .drop-down ul li {
+    float: left;
+    width: 100%;
+}
+.main-header .drop-down ul li a {
+    border-bottom: 1px solid #efefef;
+    float: left;
+    font-size: 13px;
+    line-height: 44px;
+    padding: 0 15px;
+    text-align: left;
+    width: 100%;
+}
+.main-header .drop-down ul li a:hover {
+    background: #f7f7f7 none repeat scroll 0 0;
+    text-decoration: none;
+}
+.main-header .language-select.drop-down ul {
+    max-width: 400px !important;
+    min-width: 400px !important;
+    width: 400px !important;
+}
+.main-header .language-select.drop-down ul li {
+    border-right: 1px solid #efefef;
+    float: left;
+    width: 50%;
+}
+.main-header .language-select.drop-down ul li a {
+    line-height: 36px;
+    text-align: left;
+}
+.main-header .main-menu > div {
+    //cursor: pointer;
+    float: left;
+    line-height: 70px;
+    padding: 0 5px 0 10px;
+}
+.main-header .main-menu div.divider {
+    border-left: 1px solid #efefef;
+    margin: 0 5px 0 10px;
+    padding: 0;
+}
+.main-header .main-menu i {
+    font-size: 14px;
+    margin-left: 3px;
+}
+.main-header .main-menu span, .main-header .main-menu a {
+    color: #666;
+    float: left;
+    font-size: 13px;
+}
+.main-header .main-menu .cta a {
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.main-header .main-menu .cta a:hover {
+    color: #fff;
+}
+ul {
+    list-style: outside none none;
+}
+.col-md-4 {
+    width: 33.3333%;
+}
+
+fieldset {
+    border: 0 none;
+    margin: 0;
+    min-width: 0;
+    padding: 0;
+}
+
+
+
+.login .wrapper, .logout .wrapper {
+    margin: 0 auto;
+}
+.wrapper {
+	position: relative;
+    height: auto !important;
+    //margin: 0 auto -20px;
+	//margin: 0;
+    min-height: 100%;
+}
+
+section {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+textarea#enr1{
+	background: #fff none repeat scroll 0 0;
+    border: 3px solid #ccc;
+    border-radius: 15px;
+    padding: 10px 8px;
+	width: auto;
+	
+}
+textarea#enr2{
+	background: #fff none repeat scroll 0 0;
+    border: 3px solid #ccc;
+    border-radius: 15px;
+    padding: 10px 8px;
+	width: auto;
+}
+input#enr3{
+	background: #fff none repeat scroll 0 0;
+    border: 3px solid #ccc;
+    border-radius: 15px;
+    padding: 5px 5px;
+	width: auto;
+}
+
+input#datepicker{
+	background: #fff none repeat scroll 0 0;
+    border: 3px solid #ccc;
+    border-radius: 15px;
+    padding: 5px 5px;
+	width: auto;
+}
+
+.wrapper .headdivider{
+	
+	border-left: 1px solid #efefef;
+    margin: 0 5px 0 10px;
+    padding: 0;
+	line-height: 28px;
+	float: left;
+}
+
+
+table.WithBorder{
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table.WithBorder tr{
+    border-bottom: 1px solid #ccc;
+}
+
+table.WithBorder td{
+    border: 1px solid #ccc;
+}
+
+table.WithBorder td.JobDetails{
+   text-align: left;
+   padding-left: 10px;
+   }
+   
+table.WithBorder th.JobDetails{
+   text-align: left;
+   padding-left: 10px;
+   }
+
+table.WithBorder td.NoRecord{
+   background: white;
+   cursor:not-allowed;
+   }   
+   
+.MobileDownload {
+    border-top: 1px solid #efefef;
+    float: left;
+    height: 80px;
+    margin-top: 10px;
+    overflow: visible;
+    padding-top: 10px;
+    width: 100%;
+}   
+
+#ui-datepicker-div ,.ui-datepicker { z-index: 99999 !important; }
