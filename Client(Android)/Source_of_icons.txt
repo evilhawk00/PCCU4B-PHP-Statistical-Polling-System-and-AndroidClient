@@ -1,0 +1,15 @@
+default_avatar.png : https://www.iconfinder.com/icons/479478/avatar_ninja_samurai_warrior_icon
+
+tab_members_(un)select.png : https://www.iconfinder.com/icons/3209291/contacts_customers_family_group_team_icon
+
+tab_home_(un)select.png : https://www.iconfinder.com/icons/3209296/address_home_homepage_house_resient_icon
+
+tab_more_(un)select.png :https://www.iconfinder.com/icons/969265/cogwheels_configuration_gear_seo_setting_settings_icon
+
+tab_overview_(un)select.png : https://www.iconfinder.com/icons/3209266/bookcase_books_bookshelf_report_shelf_icon
+
+tab_enrolment_(un)select.png :https://www.iconfinder.com/icons/3209272/application_check_clipboard_confirm_correct_icon
+
+password.png : https://www.iconfinder.com/icons/314481/lock_icon
+
+email.png : https://www.iconfinder.com/icons/314517/closed_envelope_mail_icon

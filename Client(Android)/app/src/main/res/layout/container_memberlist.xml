@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:scaleType="fitXY"
+        android:layout_height="60dp"
+        android:id="@+id/avatarIcon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="fish name"
+        android:id="@+id/tMemberName"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/avatarIcon"
+        android:layout_toLeftOf="@+id/tLastLogin"
+        android:textColor="@color/DisplayName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="price"
+        android:id="@+id/tLastLogin"
+        android:textColor="@color/LastLogin"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/tTotalWorkTime"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/tMemberName"
+        android:layout_toRightOf="@id/avatarIcon"
+        android:layout_toEndOf="@id/avatarIcon"
+        android:textColor="#666"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="sd"
+        android:id="@+id/tNickName"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/tTotalWorkTime"
+        android:layout_toRightOf="@id/avatarIcon"
+        android:textColor="@color/TotalMin"/>
+
+</RelativeLayout>

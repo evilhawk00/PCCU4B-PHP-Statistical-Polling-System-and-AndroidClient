@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:id="@+id/Login_UpperBanner"
+        android:background="@color/white"
+        app:layout_heightPercent="38%">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/SplashLogoDescription"
+            android:src="@drawable/splash_icon"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="@string/AboutName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/About_Name"
+            android:paddingTop="3dp"
+            android:layout_below="@id/imgLogo"
+            android:gravity="center_horizontal"
+            android:textSize="16sp" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/Login_form"
+        app:layout_heightPercent="54%"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_below="@+id/Login_UpperBanner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/ThemeOrange">
+
+
+
+        <EditText
+            android:id="@+id/InputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_top_bg"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/Email"
+            android:textColorHint="#cccccc"
+            android:drawableLeft="@drawable/email"
+            android:drawableStart="@drawable/email"/>
+        <EditText
+            android:id="@+id/InputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bottom_bg"
+            android:layout_marginTop="-2dp"
+            android:padding="10dp"
+            android:hint="@string/Password"
+            android:textColorHint="#cccccc"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/password"
+            android:drawableStart="@drawable/password"/>
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="4dp"
+            android:text="@string/Login"
+            style="@style/DefaultButtonText"
+            android:background="@drawable/button_default_bg"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/Login_form"
+        app:layout_heightPercent="8%">
+
+
+        <TextView
+            android:text="@string/CopyRightSplash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/CopyrightText"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:textSize="12sp"
+            android:paddingBottom="15sp"/>
+
+
+
+    </RelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>

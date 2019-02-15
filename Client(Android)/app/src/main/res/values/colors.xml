@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#d46000</color>
+    <color name="colorAccent">#2c5b7a</color>
+    <color name="textColorPrimary">#603600</color>
+    <color name="LastLogin">#001538</color>
+    <color name="DisplayName">#603600</color>
+    <color name="TotalMin">#d46000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="alert">#c95922</color>
+    <color name="ThemeBlue">#3498db</color>
+    <color name="ThemeOrange">#f19149</color>
+    <color name="ThemeLightBlue">#DCFEFC</color>
+</resources>

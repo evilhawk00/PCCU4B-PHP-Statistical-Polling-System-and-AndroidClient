@@ -1,0 +1,96 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/background_card"
+        android:gravity="center">
+
+
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/SplashLogoDescription"
+            android:src="@drawable/splash_icon" />
+
+        <TextView
+            android:text="@string/AboutName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/About_Name"
+
+            android:paddingTop="3dp"
+            android:layout_below="@id/imgLogo"
+            android:gravity="center_horizontal"
+            android:textSize="16sp" />
+
+        <TextView
+            android:text="@string/Version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/About_Name"
+            android:paddingTop="30dp"
+            android:id="@+id/appVersion"
+            android:textSize="20sp"/>
+
+
+
+
+        <TextView
+            android:text="@string/CurrentUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnLogout"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/textShowUsername"
+            android:textSize="18sp"
+            android:textColor="@color/DisplayName"/>
+
+
+        <Button
+            android:text="@string/Logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/CopyrightText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/btnLogout"
+
+            android:background="@drawable/button_default_bg"/>
+
+
+        <TextView
+            android:text="@string/CopyRightSplash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/CopyrightText"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:textSize="12sp"
+            android:paddingBottom="15sp" />
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

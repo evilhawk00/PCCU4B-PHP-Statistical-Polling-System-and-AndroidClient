@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+
+    <android.support.percent.PercentRelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/background_card"
+        android:gravity="center">
+
+
+        <android.support.percent.PercentRelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:id="@+id/InputLayout"
+            app:layout_heightPercent="55%">
+
+
+            <android.support.percent.PercentRelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:id="@+id/InputLayout_top"
+                app:layout_heightPercent="51%">
+
+
+                <TextView
+                    android:text="@string/textENR1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:textSize="14sp"
+                    android:id="@+id/textENR1title" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textMultiLine"
+                    android:gravity="top|start"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="6dp"
+                    android:layout_below="@+id/textENR1title"
+                    android:background="@drawable/edittextstyle"
+                    android:id="@+id/InputJobDetail">
+
+                </EditText>
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:layout_widthPercent="60%"
+                android:layout_below="@id/InputLayout_top"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/InputLayout_down"
+                app:layout_heightPercent="49%">
+
+                <TextView
+                    android:text="@string/textENR2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:textSize="14sp"
+                    android:id="@+id/textENR2title" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/textENR2title"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="top|start"
+                    android:padding="6dp"
+                    android:inputType="textMultiLine"
+                    android:id="@+id/InputJobRemarks"
+                    android:background="@drawable/edittextstyle"/>
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:layout_widthPercent="40%"
+                android:layout_below="@id/InputLayout_top"
+                android:layout_toEndOf="@id/InputLayout_down"
+                android:layout_toRightOf="@id/InputLayout_down"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+
+                android:id="@+id/InputLayout_Right1"
+                app:layout_heightPercent="17%">
+
+                <TextView
+                    android:text="@string/textENR4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:textSize="14sp"
+                    android:id="@+id/textENR4title" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="date"
+                    android:layout_below="@id/textENR4title"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:id="@+id/InputJobDate"
+                    android:hint="@string/DateHint"
+                    android:textColorHint="#cccccc"
+                    android:background="@drawable/edittextstyle"/>
+            </android.support.percent.PercentRelativeLayout>
+
+            <android.support.percent.PercentRelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:layout_widthPercent="40%"
+                android:layout_below="@id/InputLayout_Right1"
+                android:layout_toEndOf="@id/InputLayout_down"
+                android:layout_toRightOf="@id/InputLayout_down"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+
+                android:id="@+id/InputLayout_Right2"
+                app:layout_heightPercent="17%">
+
+                <TextView
+                    android:text="@string/textENR3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:textSize="14sp"
+                    android:id="@+id/textENR3title" />
+
+                <EditText
+                    android:layout_below="@id/textENR3title"
+                    app:layout_widthPercent="50%"
+                    android:layout_height="match_parent"
+                    android:inputType="number"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:paddingLeft="8dp"
+                    android:paddingStart="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/InputJobWorkingTime"
+                    android:background="@drawable/edittextstyle"/>
+
+                <TextView
+                    android:layout_below="@id/textENR3title"
+                    android:layout_toRightOf="@id/InputJobWorkingTime"
+                    android:layout_toEndOf="@id/InputJobWorkingTime"
+                    android:text="@string/Minutes"
+                    app:layout_widthPercent="50%"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textMinutes"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp"
+                    android:textSize="13sp"
+                    android:gravity="center_vertical" />
+            </android.support.percent.PercentRelativeLayout>
+
+            <Button
+                android:text="@string/Submit"
+                app:layout_widthPercent="40%"
+                app:layout_heightPercent="15%"
+                android:layout_below="@+id/InputLayout_Right2"
+                android:layout_toRightOf="@+id/InputLayout_down"
+                android:layout_toEndOf="@+id/InputLayout_down"
+                android:id="@+id/btnSubmit"
+                android:layout_margin="6dp"
+                style="@style/WhiteButtonText"
+                android:background="@drawable/button_light"
+                />
+
+
+        </android.support.percent.PercentRelativeLayout>
+
+
+
+
+        <android.support.percent.PercentRelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/MyJobListLayout"
+            android:layout_width="match_parent"
+            app:layout_heightPercent="45%"
+            android:layout_below="@id/InputLayout">
+
+            <View
+                android:id="@+id/divider"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_height="2dp"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:background="#cccccc"
+                />
+
+            <TextView
+                android:text="@string/MyENRrecord"
+                android:layout_below="@id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/ThemeBlue"
+                android:textSize="17sp"
+
+
+                android:id="@+id/MyENRRecordTitle" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/MyJobHistory"
+                android:layout_below="@id/MyENRRecordTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:scrollbars="vertical"
+                android:gravity="center"
+                />
+
+
+        </android.support.percent.PercentRelativeLayout>
+
+
+
+
+
+    </android.support.percent.PercentRelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
