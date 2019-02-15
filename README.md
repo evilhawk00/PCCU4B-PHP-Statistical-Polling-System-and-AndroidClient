@@ -56,8 +56,15 @@ Android Client Configuration
 First you need to specify your hostname or IP in Android App source code, so the App can connect to your server. To do this, you have to edit the file : 
 - SharedDataBetweenActivities.java (modify value of the variable "HostName" with your domain or IP)
 
+Third Party Software used in Android Client
+-------------
+- [FlycoTabLayout](https://github.com/H07000223/FlycoTabLayout) for the elegant fragment UI.
 
+- [Glide](https://github.com/bumptech/glide) for loading images in RecycleView.
 
+- [ObscuredSharedPreferences.java](https://github.com/RightHandedMonkey/WorxForUs_Library/blob/master/src/com/worxforus/android/ObscuredSharedPreferences.java) from [WorxForUs_Library](https://github.com/RightHandedMonkey/WorxForUs_Library) for ObscuredSharedPreferences.
+
+- Base64Support.java from [Android Open Source Project](https://source.android.com) used as a dependency for ObscuredSharedPreferences.
 
 # License
 ###### The MIT License
