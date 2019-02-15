@@ -2,9 +2,12 @@
 # PCCU4B-PHP-Statistical-Pollng-System-and-AndroidClient
 A simple example for creating a web Statistical system and an android client. With some modifications, it can become a polling system.
 
-
+Web
+-------------
 ![image](https://github.com/evilhawk00/PCCU4B-PHP-Statistical-Polling-System-and-AndroidClient/blob/master/Screenshot/PCCU4B_Screenshot.gif?raw=true)
-
+Android Client
+-------------
+<img src="https://github.com/evilhawk00/PCCU4B-PHP-Statistical-Polling-System-and-AndroidClient/blob/master/Screenshot/PCCU4B_Mobile_Screenshot.gif?raw=true" width="50%">
                 
 
 Features
