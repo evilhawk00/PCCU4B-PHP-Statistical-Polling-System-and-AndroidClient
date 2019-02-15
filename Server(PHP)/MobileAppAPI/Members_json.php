@@ -40,7 +40,7 @@ $authHeader = $_SERVER['HTTP_APPTOKEN'];
 			while ($row=$GetUserListStatistics->fetch()){
 				$row_array['DisplayName'] = $row['DisplayName'];
 				if ($row['Nickname']== "NoRecord"){
-					$row_array['Nickname'] = "!!此人尚未加入系統!!";
+					$row_array['Nickname'] = "!!Profile Incomplete!!";
 				}else{
 					$row_array['Nickname'] = $row['Nickname'];
 				}	
@@ -50,7 +50,7 @@ $authHeader = $_SERVER['HTTP_APPTOKEN'];
 					$row_array['Total'] = $row['Total'];
 				}	
 				if ($row['LastLoginTime']== NULL){
-					$row_array['LastLoginTime'] = "從未登入";
+					$row_array['LastLoginTime'] = "NULL";
 				}else{
 					$row_array['LastLoginTime'] = $row['LastLoginTime'];
 				}		
