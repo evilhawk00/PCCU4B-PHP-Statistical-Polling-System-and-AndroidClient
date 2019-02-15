@@ -4,7 +4,7 @@ A simple example for creating a web Statistical system and an android client. Wi
 
 Screenshots
 -------------
-**Web:**
+**Website(PHP):**
 
 
 ![image](https://github.com/evilhawk00/PCCU4B-PHP-Statistical-Polling-System-and-AndroidClient/blob/master/Screenshot/PCCU4B_Screenshot.gif)
@@ -51,7 +51,10 @@ Once you imported the testing data to your database, use the following account a
 
 Passwords are stored in MD5, you can simiply use phpMyAdmin with a MD5 hash caculator to change password / add new account.
 
-
+Android Client Configuration
+-------------
+First you need to specify your hostname or IP in Android App source code, so the App can connect to your server. To do this, you have to edit the file : 
+- SharedDataBetweenActivities.java (modify value of the variable "HostName" with your domain or IP)
 
 
 
