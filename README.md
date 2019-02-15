@@ -1,3 +1,4 @@
+![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 # PCCU4B-PHP-Statistical-Pollng-System-and-AndroidClient
 A simple example for creating a web Statistical system and an android client. With some modifications, it can become a polling system.
 
