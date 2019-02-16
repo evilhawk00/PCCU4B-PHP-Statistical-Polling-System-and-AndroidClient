@@ -52,14 +52,14 @@ Once you imported the testing data to your database, use the following account a
 Passwords are stored in MD5, you can simiply use phpMyAdmin with a MD5 hash caculator to change password / add new account.
 
 -------------
-Note : There's a Demo App can be downloaded from Play Store to test your Host side configuration. It connects to a PCCU4B server hosted in LAN with LAN IP addresses 192.168.1.2 
+**Note : There's a Demo App can be downloaded from Play Store to test your Host side configuration. It connects to a PCCU4B server hosted in LAN with LAN IP addresses 192.168.1.2**
 
 To use the demo App for testing purpose, You can : 
 - Configure your host with LAN IP 192.168.1.2 and test it under the same router with a phone has demo App installed.
 - Use an android emaulator with virtual private network, Configure your Host with virtual LAN IP 192.168.1.2
 
 
-Download Demo APP : 
+**Download Demo APP :** 
 
 
 [<img src="https://github.com/evilhawk00/PCCU4B-PHP-Statistical-Polling-System-and-AndroidClient/blob/master/Server(PHP)/images/GooglePlay.png" width="27%">](https://play.google.com/store/apps/details?id=com.evilhawk00.pccu4b "Download Demo APP")
